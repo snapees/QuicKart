@@ -1,10 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import Navigation from '@navigation/Navigation';
 
-export default function App() {
-  return <Navigation />;
+export default function Navigation() {
+  return (
+    <View style={{backgroundColor: 'blue'}}>
+      <Text>Navigation</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({});
