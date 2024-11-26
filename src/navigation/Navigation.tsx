@@ -5,8 +5,8 @@ import SplashScreen from '@features/auth/SplashScreen';
 import {navigationRef} from '@utils/NavigationUtils';
 import CustomerLogin from '@features/auth/CustomerLogin';
 import DeliveryLogin from '@features/auth/DeliveryLogin';
-import ProductDashboard from '@features/dashboard/ProductDashboard';
-import DeliveryDashboard from '@features/delivery/DeliveryDashboard';
+import ProductDashboard from '@features/customer-dashboard/ProductDashboard';
+import DeliveryDashboard from '@features/delivery-dashboard/DeliveryDashboard';
 
 const Stack = createNativeStackNavigator();
 const Navigation: FC = () => {
