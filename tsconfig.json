@@ -11,7 +11,8 @@
       "@navigation/*": ["navigation/*"],
       "@components/*": ["components/*"],
       "@state/*": ["state/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }
