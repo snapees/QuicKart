@@ -30,7 +30,7 @@ const NoticeAnimation: FC<noticeAnimationProps> = ({
           {
             paddingTop: noticePostion.interpolate({
               inputRange: [Notice_Height, 0],
-              outputRange: [0, Notice_Height + 20],
+              outputRange: [0, NoticeHeight + 20],
             }),
           },
         ]}>

@@ -8,7 +8,7 @@ import {Colors} from '@utils/Constants';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 import SearchBar from '@components/dashboard/SearchBar';
 
-const StatusSearchBar: FC = () => {
+const StickSearchBar: FC = () => {
   const {scrollY} = useCollapsibleContext();
 
   const animatedShadow = useAnimatedStyle(() => {
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StatusSearchBar;
+export default StickSearchBar;

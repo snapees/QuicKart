@@ -1,12 +1,12 @@
-import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import React, {FC} from 'react';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {Colors, Fonts} from '@utils/Constants';
 import {RFValue} from 'react-native-responsive-fontsize';
 import RollingBar from 'react-native-rolling-bar';
 import CustomText from '@components/ui/CustomText';
 
-const SearchBar = () => {
+const SearchBar: FC = () => {
   return (
     <TouchableOpacity style={styles.container} activeOpacity={0.8}>
       <Icon name="search" color={Colors.text} size={RFValue(20)} />
