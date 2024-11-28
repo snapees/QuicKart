@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import {Animated} from 'react-native';
 import React, {FC, ReactNode, useEffect, useRef, useState} from 'react';
-import {hocStyles} from '@styles/globalStyle';
+import {hocStyles} from '@styles/GlobalStyle';
 
 interface CartAnimationWrapperProps {
   cartCount: number;

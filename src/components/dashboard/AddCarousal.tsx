@@ -29,7 +29,7 @@ const AddCarousal: FC<AddCarousalProps> = ({adData}) => {
     height: screenWidth * 0.5,
   };
 
-  console.log('Ad Data:', adData);
+  // console.log('Ad Data:', adData);
 
   return (
     <View style={styles.container}>
