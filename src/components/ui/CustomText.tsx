@@ -16,7 +16,7 @@ interface Props {
     | 'h8'
     | 'h9'
     | 'body';
-  fontFamily: Fonts;
+  fontFamily?: Fonts;
   fontSize?: number;
   children?: ReactNode;
   numberOfLines?: number;
