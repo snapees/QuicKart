@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {Platform, StyleSheet, TouchableOpacity, View} from 'react-native';
 import React, {FC} from 'react';
 import CustomText from '@components/ui/CustomText';
@@ -5,6 +6,7 @@ import {Fonts} from '@utils/Constants';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {useAuthStore} from '@state/authStore';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import {navigate} from '@utils/NavigationUtils';
 
 interface headerProps {
   showNotice: () => void;
@@ -55,7 +57,7 @@ const Header: FC<headerProps> = ({showNotice}) => {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigate('Profile')}>
         <Icon name="account-circle-outline" color="#fff" size={RFValue(36)} />
       </TouchableOpacity>
     </View>
